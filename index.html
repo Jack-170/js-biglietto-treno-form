@@ -1,0 +1,97 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container ">
+        <div class="text-center">
+            <h1>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+        </div>
+        <section class="padding">
+            <div class="main-content">
+                <div>
+                    <h2>Nome Cognome</h2>
+            
+                    <input type="text" class="nomeuser" placeholder="Nome e Cognome">
+                </div>
+            
+                <div>
+                    <h2>Km da percorrere</h2>
+    
+                    <input type="number" class="kmnumber" placeholder="inserisci i km">
+                </div>
+    
+                <div>
+                    <h2>Fascia d'età</h2>
+                    <select class="userage">
+                        <option value="maggiorenne">Maggiorenne</option>
+                        <option value="minorenne">Minorenne</option>
+                        <option value="over65">Over 65</option>
+                    </select>
+                </div>
+                
+            </div>
+            <div class="button-container">
+        
+                <button id="generate" class="button-style">Genera</button>
+                <button id="cancel" class="button-style">Annulla</button>
+
+
+            
+            </div>
+        </section>
+
+        <div class="text-center">
+            <h1>IL TUO BIGLIETTO</h1>
+        </div>
+
+        <section id="ticket" class="d-none padding">
+            <h3 class="margin-b">Dettaglio passeggeri</h3>
+            <div class="flex">
+                <div class="ticket-section padding">
+                    <div>
+                        <h4 id="username"></h4>
+                    </div>
+                </div>
+
+                <div class="ticket-section padding">
+                    <h4 class="margin-b"><strong>Offerta</strong></h4>
+                    <p>biglietto standard</p>
+                </div>
+
+                <div class="ticket-section padding">
+                    <h4 class="margin-b"><strong>Carrozza</strong></h4>
+                    <div id="numeroCasuale"></div>
+                </div>
+
+                <div class="ticket-section padding">
+                    <h4 class="margin-b"><strong>Costo Biglietto</strong></h4>
+
+                    <div>
+                        <h4 id="finalprice"></h4>
+                    </div>
+
+                </div>
+
+                
+            </div>
+        </section>
+
+    </div>
+   
+
+    
+    
+
+
+
+
+    <script type="text/javascript" src="js/script.js">
+    </script>
+</body>
+</html>

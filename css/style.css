@@ -1,0 +1,74 @@
+/* stili generali di pagina */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 20px;
+}
+
+
+h1{
+    color: white;
+    margin-top: 20px;
+}
+
+h2{
+    color: red;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.padding{
+    padding: 20px;
+}
+.margin-t{
+    margin-top: 20px;
+}
+.margin-b{
+    margin-bottom: 20px;
+}
+
+.button-style{
+    margin: 0 10px;
+    padding: 8px;
+}
+
+.container{
+    height: 100vh;
+    background-color: red;
+}
+
+section{
+    background-color: white;
+    width: 80%;
+    margin: 60px auto 0;
+    border-radius: 20px;
+}
+
+.main-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.button-container{
+    margin: 40px ;
+    display: flex;
+    justify-content: center;
+}
+
+.ticket-section{
+    width: 25%;
+    border: 1px black solid;
+}
+
+.flex{
+    display: flex;
+}
+
+
